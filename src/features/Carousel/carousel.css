@@ -1,0 +1,84 @@
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #42567A; 
+  width: 40px;
+  height: 40px;
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  transition: .4s all ease-in-out;
+}
+
+/* При наведении */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: #3877EE;
+  color: white;
+}
+
+.custom-navigation {
+  display: flex;
+  justify-content: center; /* по центру */
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.custom-swiper-button {
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.swiper-wrapper-with-buttons {
+  position: relative;
+}
+
+/* Контейнер стрелок */
+.custom-navigation-vertical {
+  position: absolute;
+  top: 50%;
+  left: 3rem; 
+  transform: translateY(170%);
+  display: flex;
+  gap: 10px;
+  z-index: 20;
+}
+
+/* Кнопки */
+.custom-swiper-button {
+  color: #42567A;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 43px;
+  font-size: 23px;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: background 0.3s ease;
+}
+
+.swiper-pagination-bullet {
+  background-color: #42567A;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #3877EE;
+  opacity: 1;
+}
+
+.custom-swiper-button:hover {
+  color: #fff;
+  background: #42567A;
+}
+

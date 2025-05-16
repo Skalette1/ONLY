@@ -1,0 +1,29 @@
+
+footer {
+  display: flex;
+  margin: 1rem;
+  font-size: 1rem;
+  gap: 2rem;
+}
+
+.footer-card {
+  display: flex;
+  flex-direction: column;
+  color: #42567A;
+}
+
+.footer-card h5 { 
+  font-size: 1.2rem;
+  color: #3877EE;
+}
+
+@media (max-width: 800px) {
+  footer {
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+  }
+
+  footer::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
+}
