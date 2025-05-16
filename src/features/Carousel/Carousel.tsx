@@ -10,7 +10,7 @@ import { SecondPage } from '../../pages/SecondPage';
 import { ThirdPage } from '../../pages/ThirdPage';
 import '../Carousel/carousel.css'
 import { Lines } from '../../app/widgets/lines/Lines';
-
+//
 // .
 export default function MySwiper() {
   const prevRef = useRef(null);
