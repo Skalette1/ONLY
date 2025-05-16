@@ -20,10 +20,11 @@ footer {
 @media (max-width: 800px) {
   footer {
     overflow-x: auto;
-    scrollbar-width: none; /* Firefox */
+    scrollbar-width: none; 
   }
 
   footer::-webkit-scrollbar {
-    display: none; /* Chrome, Safari */
+    display: none; 
   }
 }
+

@@ -155,9 +155,13 @@ main {
   }
 
     .custom-navigation-vertical {
-    position: static;
-    transform: none;
-    margin: 2rem auto 1rem;
+    position: fixed;
+    bottom: 10rem;
+    left: 0;
+    background: white;
+    z-index: 100;
+    padding: 1rem 0;
     justify-content: center;
   }
 }
+
