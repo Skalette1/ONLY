@@ -70,6 +70,9 @@
 .swiper-pagination-bullet {
   background-color: #42567A;
   opacity: 0.5;
+  transform: scale(1.4);
+  margin-top: 0.4rem;
+  padding: .1rem;
 }
 
 .swiper-pagination-bullet-active {
@@ -147,4 +150,27 @@
 .custom-swiper-button:hover {
   color: #fff;
   background: #3877EE;
+}
+
+/* Добавляем отступ сверху для всей пагинации */
+.swiper-pagination {
+  margin-top: 15px; /* Отступ сверху от слайдера */
+  display: flex;
+  justify-content: center;
+  gap: 12px; /* Расстояние между буллетами */
+}
+
+/* Можно чуть увеличить отступы у самих точек, если надо */
+.swiper-pagination-bullet {
+  margin: 0 6px; /* по бокам, чтобы разделить точки */
+  /* остальные стили */
+  background-color: #42567A;
+  opacity: 0.5;
+  transform: scale(1.4);
+  padding: 0.1rem;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #3877EE;
+  opacity: 1;
 }
