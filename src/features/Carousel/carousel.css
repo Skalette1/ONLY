@@ -82,3 +82,69 @@
   background: #42567A;
 }
 
+
+.swiper-wrapper-with-buttons {
+  position: relative;
+}
+
+/* Контейнер для кнопок снизу */
+.custom-navigation-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+  position: relative; /* или absolute, если надо поверх */
+  z-index: 10;
+}
+
+/* Кнопки */
+.custom-swiper-button {
+  color: #42567A;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 43px;
+  font-size: 23px;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-swiper-button:hover {
+  color: #fff;
+  background: #3877EE;
+}
+
+.custom-navigation-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+  position: relative;
+  z-index: 10;
+}
+
+.custom-swiper-button {
+  color: #42567A;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 43px;
+  font-size: 23px;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-swiper-button:hover {
+  color: #fff;
+  background: #3877EE;
+}
